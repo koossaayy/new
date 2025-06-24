@@ -561,28 +561,28 @@
         {{ __("'hello world \"") }}
     </p>
     <p>
-        YES YES BABY YES
+        {{ __('YES YES BABY YES') }}
     </p>
     <p>
-        Maybe yes, maybe no
+        {{ __('Maybe yes, maybe no') }}
     </p>
     <p>
-        Again, this should work
+        {{ __('Again, this should work') }}
     </p>
     <p>
-        This is a nice song really.
+        {{ __('This is a nice song really.') }}
     </p>
     <p>
-        let's see another one
+        {{ __("let's see another one") }}
     </p>
     <p>
-        YES YES
+        {{ __('YES YES') }}
     </p>
     <p>
-        Okay now what else,
+        {{ __('Okay now what else,') }}
     </p>
     <p>
-        Okay, now I think it will work
+        {{ __('Okay, now I think it will work') }}
     </p>
 
 
