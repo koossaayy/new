@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>{{ __('Document') }}</title>
 </head>
 
 <body>
@@ -17,17 +17,16 @@
                 <div>
                     <p
                         class="inline-block text-sm font-medium bg-clip-text bg-linear-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-                        Preline: A vision for 2024
+                        {{ __('Preline: A vision for 2024') }}
                     </p>
 
                     <!-- Title -->
                     <div class="mt-4 md:mb-12 max-w-2xl">
                         <h1 class="mb-4 font-semibold text-gray-800 text-4xl lg:text-5xl dark:text-neutral-200">
-                            Fully customizable rules to match your unique needs
+                            {{ __('Fully customizable rules to match your unique needs') }}
                         </h1>
                         <p class="text-gray-600 dark:text-neutral-400">
-                            We provide you with a test account that can be set up in seconds. Our main focus is getting
-                            responses to you as soon as we can.
+                            {{ __('We provide you with a test account that can be set up in seconds. Our main focus is getting responses to you as soon as we can.') }}
                         </p>
                     </div>
                     <!-- End Title -->
@@ -44,7 +43,7 @@
 
                         <div class="relative z-10">
                             <p class="text-xl italic text-gray-800 dark:text-white">
-                                Amazing people to work with. Very fast and professional partner.
+                                {{ __('Amazing people to work with. Very fast and professional partner.') }}
                             </p>
                         </div>
 
@@ -56,9 +55,8 @@
                                         alt="Avatar">
                                 </div>
                                 <div class="grow">
-                                    <div class="font-semibold text-gray-800 dark:text-neutral-200">Josh Grazioso</div>
-                                    <div class="text-xs text-gray-500 dark:text-neutral-500">Director Payments & Risk |
-                                        Airbnb</div>
+                                    <div class="font-semibold text-gray-800 dark:text-neutral-200">{{ __('Josh Grazioso') }}</div>
+                                    <div class="text-xs text-gray-500 dark:text-neutral-500">{{ __('Director Payments & Risk | Airbnb') }}</div>
                                 </div>
                             </div>
                         </footer>
@@ -74,13 +72,12 @@
                             <!-- Card -->
                             <div class="p-4 sm:p-7 flex flex-col bg-white rounded-2xl shadow-lg dark:bg-neutral-900">
                                 <div class="text-center">
-                                    <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">Start your free
-                                        trial</h1>
+                                    <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">{{ __('Start your free trial') }}</h1>
                                     <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
-                                        Already have an account?
+                                        {{ __('Already have an account?') }}
                                         <a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500"
                                             href="#">
-                                            Sign in here
+                                            {{ __('Sign in here') }}
                                         </a>
                                     </p>
                                 </div>
@@ -103,12 +100,12 @@
                                                 d="M23.4694 9.07688C27.8699 9.07688 30.8622 10.9863 32.5344 12.5725L39.1645 6.11C35.0867 2.32063 29.8061 0 23.4694 0C14.287 0 6.36607 5.2875 2.49362 12.9544L10.0918 18.8588C11.9987 13.1894 17.25 9.07688 23.4694 9.07688Z"
                                                 fill="#EB4335"></path>
                                         </svg>
-                                        Sign up with Google
+                                        {{ __('Sign up with Google') }}
                                     </button>
 
                                     <div
                                         class="py-3 flex items-center text-xs text-gray-400 uppercase before:flex-1 before:border-t before:border-gray-200 before:me-6 after:flex-1 after:border-t after:border-gray-200 after:ms-6 dark:text-neutral-500 dark:before:border-neutral-700 dark:after:border-neutral-700">
-                                        Or</div>
+                                        {{ __('Or') }}</div>
 
                                     <!-- Grid -->
                                     <div class="grid grid-cols-2 gap-4">
@@ -134,8 +131,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">First
-                                                    name</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('First name') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
                                         </div>
@@ -163,8 +159,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">Last
-                                                    name</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('Last name') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
                                         </div>
@@ -192,7 +187,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">Email</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('Email') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
                                         </div>
@@ -221,8 +216,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">Company
-                                                    name</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('Company name') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
                                         </div>
@@ -251,8 +245,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">New
-                                                    password</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('New password') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
 
@@ -269,7 +262,7 @@
                                                 </div>
 
                                                 <h4 class="mt-3 text-sm font-semibold text-gray-800 dark:text-white">
-                                                    Your password must contain:
+                                                    {{ __('Your password must contain:') }}
                                                 </h4>
 
                                                 <ul class="space-y-1 text-sm text-gray-500 dark:text-neutral-500">
@@ -294,7 +287,7 @@
                                                                 <path d="m6 6 12 12" />
                                                             </svg>
                                                         </span>
-                                                        Minimum number of characters is 6.
+                                                        {{ __('Minimum number of characters is 6.') }}
                                                     </li>
                                                     <li data-hs-strong-password-hints-rule-text="lowercase"
                                                         class="hs-strong-password-active:text-teal-500 flex items-center gap-x-2">
@@ -317,7 +310,7 @@
                                                                 <path d="m6 6 12 12" />
                                                             </svg>
                                                         </span>
-                                                        Should contain lowercase.
+                                                        {{ __('Should contain lowercase.') }}
                                                     </li>
                                                     <li data-hs-strong-password-hints-rule-text="uppercase"
                                                         class="hs-strong-password-active:text-teal-500 flex items-center gap-x-2">
@@ -340,7 +333,7 @@
                                                                 <path d="m6 6 12 12" />
                                                             </svg>
                                                         </span>
-                                                        Should contain uppercase.
+                                                        {{ __('Should contain uppercase.') }}
                                                     </li>
                                                     <li data-hs-strong-password-hints-rule-text="numbers"
                                                         class="hs-strong-password-active:text-teal-500 flex items-center gap-x-2">
@@ -363,7 +356,7 @@
                                                                 <path d="m6 6 12 12" />
                                                             </svg>
                                                         </span>
-                                                        Should contain numbers.
+                                                        {{ __('Should contain numbers.') }}
                                                     </li>
                                                     <li data-hs-strong-password-hints-rule-text="special-characters"
                                                         class="hs-strong-password-active:text-teal-500 flex items-center gap-x-2">
@@ -386,7 +379,7 @@
                                                                 <path d="m6 6 12 12" />
                                                             </svg>
                                                         </span>
-                                                        Should contain special characters.
+                                                        {{ __('Should contain special characters.') }}
                                                     </li>
                                                 </ul>
                                             </div>
@@ -416,8 +409,7 @@
                         peer-not-placeholder-shown:scale-90
                         peer-not-placeholder-shown:translate-x-0.5
                         peer-not-placeholder-shown:-translate-y-1.5
-                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">Current
-                                                    password</label>
+                        peer-not-placeholder-shown:text-gray-500 dark:peer-not-placeholder-shown:text-neutral-500 dark:text-neutral-500">{{ __('Current password') }}</label>
                                             </div>
                                             <!-- End Floating Input -->
                                         </div>
@@ -432,17 +424,16 @@
                                                 class="shrink-0 mt-0.5 border-gray-200 rounded-sm text-blue-600 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800">
                                         </div>
                                         <div class="ms-3">
-                                            <label for="remember-me" class="text-sm dark:text-white">I accept the <a
+                                            <label for="remember-me" class="text-sm dark:text-white">{{ __('I accept the') }} <a
                                                     class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500"
-                                                    href="#">Terms and Conditions</a></label>
+                                                    href="#">{{ __('Terms and Conditions') }}</a></label>
                                         </div>
                                     </div>
                                     <!-- End Checkbox -->
 
                                     <div class="mt-5">
                                         <button type="submit"
-                                            class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">Get
-                                            started</button>
+                                            class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">{{ __('Get started') }}</button>
                                     </div>
                                 </div>
                             </div>
@@ -460,7 +451,7 @@
                 class="mt-6 md:mt-12 py-3 flex items-center text-sm text-gray-800 gap-x-1.5 after:flex-1 after:border-t after:border-gray-200 after:ms-6 dark:text-white dark:after:border-neutral-700">
                 <span
                     class="font-semibold bg-clip-text bg-linear-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">50,000</span>
-                individuals and companies trust Preline
+                {{ __('individuals and companies trust Preline') }}
             </div>
 
             <!-- Clients -->
@@ -557,13 +548,13 @@
     <!-- End Hero -->
 
     <p>
-        "Don't worry"
+        {{ __("\"Don't worry\"") }}
     </p>
     <p>
-        'hello world
+        {{ __("'hello world") }}
     </p>
     <p>
-        'hello world "
+        {{ __("'hello world \"") }}
     </p>
 </body>
 
