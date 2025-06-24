@@ -55,8 +55,10 @@
                                         alt="Avatar">
                                 </div>
                                 <div class="grow">
-                                    <div class="font-semibold text-gray-800 dark:text-neutral-200">{{ __('Josh Grazioso') }}</div>
-                                    <div class="text-xs text-gray-500 dark:text-neutral-500">{{ __('Director Payments & Risk | Airbnb') }}</div>
+                                    <div class="font-semibold text-gray-800 dark:text-neutral-200">
+                                        {{ __('Josh Grazioso') }}</div>
+                                    <div class="text-xs text-gray-500 dark:text-neutral-500">
+                                        {{ __('Director Payments & Risk | Airbnb') }}</div>
                                 </div>
                             </div>
                         </footer>
@@ -72,7 +74,8 @@
                             <!-- Card -->
                             <div class="p-4 sm:p-7 flex flex-col bg-white rounded-2xl shadow-lg dark:bg-neutral-900">
                                 <div class="text-center">
-                                    <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">{{ __('Start your free trial') }}</h1>
+                                    <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">
+                                        {{ __('Start your free trial') }}</h1>
                                     <p class="mt-2 text-sm text-gray-600 dark:text-neutral-400">
                                         {{ __('Already have an account?') }}
                                         <a class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500"
@@ -424,7 +427,8 @@
                                                 class="shrink-0 mt-0.5 border-gray-200 rounded-sm text-blue-600 focus:ring-blue-500 dark:bg-neutral-900 dark:border-neutral-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800">
                                         </div>
                                         <div class="ms-3">
-                                            <label for="remember-me" class="text-sm dark:text-white">{{ __('I accept the') }} <a
+                                            <label for="remember-me"
+                                                class="text-sm dark:text-white">{{ __('I accept the') }} <a
                                                     class="text-blue-600 decoration-2 hover:underline focus:outline-hidden focus:underline font-medium dark:text-blue-500"
                                                     href="#">{{ __('Terms and Conditions') }}</a></label>
                                         </div>
@@ -555,6 +559,9 @@
     </p>
     <p>
         {{ __("'hello world \"") }}
+    </p>
+    <p>
+        YES YES BABY YES
     </p>
 </body>
 
