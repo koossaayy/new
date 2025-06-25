@@ -2166,7 +2166,7 @@
     </div>
 
     <div>
-        testing webhooks
+        {{ __('testing webhooks') }}
     </div>
 
 </body>
