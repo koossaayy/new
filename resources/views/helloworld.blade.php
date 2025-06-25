@@ -14,7 +14,8 @@
         <!-- Title -->
         <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
             <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">{{ __('Pricing') }}</h2>
-            <p class="mt-1 text-gray-600 dark:text-neutral-400">{{ __('Whatever your status, our offers evolve according to your needs.') }}</p>
+            <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                {{ __('Whatever your status, our offers evolve according to your needs.') }}</p>
         </div>
         <!-- End Title -->
 
@@ -103,13 +104,15 @@
             <div
                 class="flex flex-col border-2 border-blue-600 text-center shadow-xl rounded-xl p-8 dark:border-blue-700">
                 <p class="mb-3"><span
-                        class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-blue-100 text-blue-800 dark:bg-blue-600 dark:text-white">{{ __('Most popular') }}</span></p>
+                        class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs uppercase font-semibold bg-blue-100 text-blue-800 dark:bg-blue-600 dark:text-white">{{ __('Most popular') }}</span>
+                </p>
                 <h4 class="font-medium text-lg text-gray-800 dark:text-neutral-200">{{ __('Startup') }}</h4>
                 <span class="mt-5 font-bold text-5xl text-gray-800 dark:text-neutral-200">
                     <span class="font-bold text-2xl -me-2">$</span>
                     39
                 </span>
-                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">{{ __('All the basics for starting a new business') }}
+                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+                    {{ __('All the basics for starting a new business') }}
                 </p>
 
                 <ul class="mt-7 space-y-2.5 text-sm">
@@ -164,7 +167,8 @@
                     <span class="font-bold text-2xl -me-2">$</span>
                     89
                 </span>
-                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">{{ __('Everything you need for a growing business') }}
+                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+                    {{ __('Everything you need for a growing business') }}
                 </p>
 
                 <ul class="mt-7 space-y-2.5 text-sm">
@@ -219,7 +223,8 @@
                     <span class="font-bold text-2xl -me-2">$</span>
                     149
                 </span>
-                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">{{ __('Advanced features for scaling your business') }}
+                <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+                    {{ __('Advanced features for scaling your business') }}
                 </p>
 
                 <ul class="mt-7 space-y-2.5 text-sm">
@@ -279,7 +284,8 @@
             <div class="space-y-24 lg:hidden">
                 <section>
                     <div class="px-4 mb-4">
-                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">{{ __('Free') }}</h2>
+                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">
+                            {{ __('Free') }}</h2>
                     </div>
                     <table class="w-full">
                         <caption
@@ -550,7 +556,8 @@
 
                 <section>
                     <div class="px-4 mb-4">
-                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">{{ __('Startup') }}</h2>
+                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">
+                            {{ __('Startup') }}</h2>
                     </div>
                     <table class="w-full">
                         <caption
@@ -821,7 +828,8 @@
 
                 <section>
                     <div class="px-4 mb-4">
-                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">{{ __('Team') }}</h2>
+                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">
+                            {{ __('Team') }}</h2>
                     </div>
                     <table class="w-full">
                         <caption
@@ -1092,7 +1100,8 @@
 
                 <section>
                     <div class="px-4 mb-4">
-                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">{{ __('Enterprise') }}</h2>
+                        <h2 class="text-lg leading-6 font-medium text-gray-800 dark:text-neutral-200">
+                            {{ __('Enterprise') }}</h2>
                     </div>
                     <table class="w-full">
                         <caption
@@ -2154,6 +2163,10 @@
     <!-- End Pricing -->
     <div>
         {{ __('Hello world added one') }}
+    </div>
+
+    <div>
+        testing webhooks
     </div>
 
 </body>
