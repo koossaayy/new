@@ -2174,7 +2174,7 @@
     </div>
 
     <div>
-        Maybe yes; maybe no.
+        {{ __('Maybe yes; maybe no.') }}
     </div>
 
 
